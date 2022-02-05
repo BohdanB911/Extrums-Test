@@ -1,0 +1,192 @@
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Quintessential', cursive;
+font-family: 'Roboto', sans-serif; */
+
+.choose-idea {
+    padding: 100px 0px;
+    background-color: rgb(246, 236, 255);
+}
+
+.choose-title,
+.idea-title,
+.achievements-title,
+.challenges-title {
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Quintessential', cursive;
+}
+
+.idea-card_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.card-body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.card-text {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: rgb(22, 44, 240);
+    font-family: 'Quintessential', cursive;
+}
+
+.card-education {
+    background-image: url(../img/paper-cranes.jpg);
+}
+
+.card-busywork {
+    background-image: url(../img/busywork.jpg);
+}
+
+.card-relaxation {
+    background-image: url(../img/relaxation.jpg);
+}
+
+.card-music {
+    background-image: url(../img/album.jpg);
+}
+
+
+/* /////////////////////////////////// */
+
+.slide-section {
+    background-color: rgb(243, 118, 118);
+    padding: 50px 50px;
+}
+
+.idea-slider-wrap {
+    position: relative;
+}
+
+.idea-slider_item>div {
+    margin: 0 auto;
+}
+
+.slick-center>div>.idea-slider_item>.card-body {
+    transform: scale(1);
+}
+
+.slick-center>div>.idea-slider_item>.card-body>._slider-btn {
+    opacity: 1;
+}
+
+._slider-btn {
+    opacity: 0;
+}
+
+.idea-slider_item>.card-body {
+    transform: scale(0.7);
+    transition: 0.3s ease;
+}
+
+.slick-arrow {
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 500;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slick-next {
+    right: -20px;
+}
+
+.slick-prev {
+    left: -20px;
+}
+
+.custom_paging {
+    padding: 0;
+}
+
+.custom_paging>li {
+    display: none;
+}
+
+.custom_paging>.slick-active {
+    color: white;
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* ////////////////////////////////////// */
+
+.achievements {
+    padding: 30px 0px;
+    background-color: rgb(78, 78, 153);
+}
+
+.ring {
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: bisque;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ring:hover {
+    background-color: bisque;
+    color: rgb(78, 78, 153);
+}
+
+.achievements-wrap {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+._break {
+    align-self: flex-end;
+}
+
+.achievements-item-text {
+    text-align: center;
+    color: bisque;
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'Quintessential', cursive;
+    margin-top: 30px;
+}
+
+
+/* //////////////////////////////// */
+
+.challenges {
+    padding: 50px 0px;
+    background-color: rgb(224, 161, 65);
+}
